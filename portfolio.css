@@ -1,0 +1,51 @@
+.container {
+  background-color: #18BC9c;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  border: groove;
+  border-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.line_decoration {
+  height: 6px;
+  width: 250px;
+  background: #2D3E50;
+  margin: 8px auto;
+}
+
+.line_decoration_circle {
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.line_decoration_circle span {
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  background: #2D3E50;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+img {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+}
+
+.image_container {
+  display: inline-block;
+  margin: 15px;
+  padding: 15px;
+}
+
+.images {
+  text-align: center;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}
+
+body {
+  font-family: "Nunito Sans", Georgia, serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 3;
+  background-image: url('bgindex3.jpg');
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+}
+
+h1 {
+  padding: 30px auto;
+  font-size: 60px;
+}
+
+p {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.menu li:hover {
+  background-color: #F39C12;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  right: 0;
+  width: 80%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: 0;
+}
+
+#div1 {
+  animation-timing-function: linear;
+}
+
+#div2 {
+  animation-timing-function: ease;
+}
+
+#div3 {
+  animation-timing-function: ease-in;
+}
+
+#div4 {
+  animation-timing-function: ease-out;
+}
+
+#div5 {
+  animation-timing-function: ease-in;
+}
+
+s #div6 {
+  animation-timing-function: ease-in-out;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6 {
+  width: 100px;
+  height: 50px;
+  background-color: #F1C40F;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Skranji');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+h1 {
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Skranji', cursive;
+  font-size: 70px;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-image: url('https://cdn.newswire.com/files/x/0b/34/3620de78b375207abf403febe13f.jpg');
+  background-image: cover;
+  background-repeat: no-repeat;
+}

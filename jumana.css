@@ -1,0 +1,38 @@
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: red;
+  background-color: black;
+  text-align: center;
+}
+
+body {
+  width: 70%;
+  margin: auto;
+  background-image: url('jhbg2.jpg');
+}
+
+.fa fa-heart {
+  color: red;
+  font-size: 24px;
+}
+
+.dropdown {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: black;
+  display: none;
+  padding-left: 19%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+img {
+  width: 450px;
+  height: 450px;
+}
